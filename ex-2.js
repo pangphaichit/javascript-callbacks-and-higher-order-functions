@@ -32,3 +32,4 @@ let scoreRoom3Result = atLeastFive(studentScoresRoom3, counterPassStudentscores)
 console.log("นักเรียนห้องที่ 1 " + scoreRoom1Result);
 console.log("นักเรียนห้องที่ 2 " + scoreRoom2Result);
 console.log("นักเรียนห้องที่ 3 " + scoreRoom3Result);
+
