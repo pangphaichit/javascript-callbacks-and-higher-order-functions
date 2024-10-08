@@ -12,8 +12,8 @@ function atLeastFive(array, operation) {
   return operation.call(this,count)
 }
 
-function operationcount(totol) {
-  if (totol >= 5) {
+function operationcount(total) {
+  if (total >= 5) {
     return `นักเรียนห้องที่  ${this.roomNumber} ผ่านเกณฑ์ ✅`
   } else 
     return `นักเรียนห้องที่ ${this.roomNumber} ไม่ผ่านเกณฑ์ ❌`
